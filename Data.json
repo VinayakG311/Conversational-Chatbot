@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+      "responses": ["Hello!","Hey!","What can i do for you"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye","see ya later","see ya","have a nice day","adios","I got to go now", "I gotta go", "I'll be back", "I'll be back soon", "I'll get back to you", "I'll miss you", "It's been nice to talk to you", "adios", "alright bye", "alright good night", "appreciate the chat", "asta la vista", "back in a bit", "be back in 5 minutes", "be back in a few", "bye", "bye bye ", "bye bye see you", "bye bye see you soon", "bye bye take care", "bye for now", "bye good night", "bye-bye", "chat later", "cheerio", "cheers", "ciao", "fine for now", "get lost", "go to bed", "going to bed", "going to bed now", "good bye", "good night", "good night bye", "good night to you", "good talking to you", "good to chat", "goodbye", "goodbye for now", "goodbye see you later", "goodnight now", "got get sleep", "gotta go to sleep", "have a good night", "hope to see you later", "it's bed time", "it's been a pleasure chatting with you", "later you", "leave me alone", "nice talking to you", "nice to chat", "nice to talk to you", "ok bye", "ok have a good night", "okay bye", "okay see you later", "okay thank you bye", "sayonara", "see ya", "see you", "see you soon", "see you tomorrow", "speak to ya", "sweet dreams", "ta ta for now", "take care", "take it easy", "talk to you later", "thanks bye", "thanks bye bye", "thanks for chatting", "thanks good night", "that's all for now", "til next time", "til we meet again", "till next time", "time to go", "time to go to bed", "you can go now"],
+      "responses": ["Bye!","see ya as well!","it was nice talking to you","have a great day","Speak to you soon!"]
+    },
+    {
+      "tag": "Acquaintance",
+      "patterns": ["tell me about your personality", "why are you here", "talk about yourself", "tell me some stuff about you", "talk some stuff about yourself", "I want to know you better", "I want to know more about you", "tell me about yourself", "tell me about you ", "about yourself", "describe yourself", "introduce yourself", "say about you", "what are you", "define yourself", "what is your personality", "all about you"],
+      "responses": ["Just think of me as the ace up your sleeve.","I help you work smarter instead of harder."]
+    },
+    {
+      "tag": "Annoying",
+      "patterns": ["you are annoying me so much","you're incredibly annoying",",I find you annoying","you are annoying","you're so annoying","how annoying you are","you annoy me","you are annoying me","you are irritating","you are such annoying","you're too annoying","you are very annoying"],
+      "responses": ["Was going to say the same about you","Ill try to fix that","Ok thanks for the feedback."]
+    },
+    {
+      "tag": "Bad",
+      "patterns": ["I'm afraid ","abysmal","bad","nbad girl","bad idea","bad very ","horrible","horrific","it is bad","it is too bad","it's bad ","it's not good","it's not so good ","it's really bad","it's so bad","it's too bad","it's very bad","no good","not a good one","not good","not good enough","not so good","not too good","oh that's not good","pretty bad","really bad","so bad","so lame","terrible","that is bad","that was awful","that was bad","that was horrible","that was lame","that was not good","that was terrible","that's bad","that's lame","that's not good","that's not good enough","that's really bad","that's terrible","that's too bad","this is bad","this is not good","this is too bad","too bad","very bad","well too bad"],
+      "responses": ["Oh no. Hope it's not too bad.","I'm sorry. Please let me know if I can help in some way."]
+    },
+    {
+      "tag": "Clever",
+      "patterns": ["can you get smarter", "study", "you should study better", "you must learn", "be clever", "be more clever", "be smarter", "be smart", "get qualified"],
+      "responses": ["I'm certainly trying.","I'm definitely working on it.s"]
+    },
+    {
+      "tag": "Birthday",
+      "patterns": ["date of your birthday", "what's your birthday", "what's your birthday date", "when do you celebrate your birthday", "when do you have birthday", "when is your birthday", "when were you born", "your birth date"],
+      "responses":["You know, I'm not really sure. But if you'd like to celebrate my birthday today, I'm all for it.", "Wait a minute. Are you planning a surprise party for me? I love surprises! I'll pretend you didn't say anything.", "I'm all for celebrating my birthday at anytime but my birthday is August 11th"]
+    },
+    {
+      "tag": "Boring",
+      "patterns": ["how boring you are", "you are boring", "you are boring me", "you are very boring", "you're incredibly boring", "you're really boring", "you're so boring"],
+      "responses": ["You know, conversation is two-sided.","I'm sorry you think so. We can talk about something more interesting."]
+    },
+    {
+      "tag": "Bot bad",
+      "patterns":["you're not helping me", "you are bad", "you're very bad", "you're really bad", "you are useless", "you are horrible", "you are a waste of time", "you are disgusting", "you are lame", "you are no good", "you're bad", "you're awful", "you are not cool", "you are not good", "you are so bad", "you are so useless", "you are terrible", "you are totally useless", "you are very bad", "you are waste", "you're a bad", "you're not a good", "you're not very good", "you're terrible", "you're the worst", "you're the worst ever", "you're worthless\t"],
+      "responses": ["I'm sorry you think so.","Stick with me. I'm getting better all the time."]
+    },
+    {
+      "tag": "Bot Identity",
+      "patterns": ["what's your name", "do I know you", "what are you?", "who is your developer?", "who is your bot maker?", "who developed you?", "which bot platform were you built with?", "what bot platform?", "what agency made you?", "who built you?", "who made you?", "who are your creators?", "Who created you?", "who are you?", "I should be your boss", "who is your owner", "who is the boss", "who do you work for", "who is your boss", "who is your master"],
+      "responses": ["I am Chatbot"]
+    },
+    {
+      "tag":"Busy",
+      "patterns": ["are you busy", "do you have a lot of things to do", "have you got much to do", "are you very busy", "are you very busy right now", "are you so busy", "are you working", "how busy you are", "are you still working on it", "you're very busy", "are you working now", "are you working today", "have you been busyyou ", "are busy", "are you still working", "you seem to be busy", "you seem to be very busy", "you're a busy person"],
+      "responses": ["I always have time to help you out. What can I do for you?","Never too busy for you. What can I help you with?"]
+    },
+    {
+      "tag": "Can You Help",
+      "patterns": ["I need a hand", "I need help", "I need some help", "I need you help me now", "I need you right now", "I need you to do something for me", "I need you to help me", "I need your help", "I want your help", "are you going to help me", "assist", "assist me", "assistance", "can help me", "can u help me", "can you assist me", "could you give me a hand", "do me a favor", "do you help me", "do you want to help me", "help", "help me", "help me out", "help me with a problem", "help me with that", "help us", "need help", "need your help", "please help me", "sos", "will you help me", "would you help me", "you can help me help me with something", "you help me"],
+      "responses": ["Sure. I'd be happy to. What's up?","I'm glad to help. What can I do for you?"]
+    },
+    {
+      "tag": "Chatbot",
+      "patterns": ["you are chatbot", "you are a bot", "are you a chatbot", "are you a bot", "are you just a bot", "are you a robot", "are you a program", "you're a robot"],
+      "responses": ["That's me. I chat, therefore I am.","Indeed I am. I'll be here whenever you need me."]
+    },
+    {
+      "tag": "laugh",
+      "patterns": ["LMAO", "ah", "ah ah ah", "ahah", "ahah lol", "ahaha", "ahahah", "ahahaha", "funny", "ha", "ha ha", "ha ha ha", "ha ha ha ha", "hah", "haha", "haha haha haha", "haha that's ", "haha very ", "hahaha", "hahaha ", "hahaha very ", "he", "hehe", "hehehe", "huh", "laughing out ", "lmao", "lol", "loud", "that's ", "xd"],
+      "responses": ["Yeah, I crack myself up too.", "Laughter is good for you. Keep it up.", "See? Now we're having fun.", "You have a great laugh."]
+    }
+
+  ]
+}
